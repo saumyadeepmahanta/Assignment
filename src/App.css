@@ -1,0 +1,89 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.search-input {
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 300px;
+  font-size: 16px;
+}
+
+.search-button,
+.favorites-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.card {
+  position: relative;
+
+  margin-top: 20px;
+  padding: 20px;
+  width: 400px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  text-align: center;
+}
+
+.star-container {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.card h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 16px;
+}
+
+.star {
+  font-size: 2rem;
+  cursor: pointer;
+  color: #d3d3d3;
+}
+
+.star.filled {
+  color: #ffd700;
+}
+
+.favorites-list {
+  margin-top: 20px;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.favorite-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.favorite-item h3 {
+  margin: 0 10px;
+}
+
+.favorite-poster {
+  width: 50px;
+  height: auto;
+}
